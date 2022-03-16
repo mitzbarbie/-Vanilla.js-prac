@@ -80,6 +80,8 @@ main {
 
 #todo-list {
   margin: 25px 0 25px 0;
+  max-height: 250px;
+  overflow-y: auto;
 }
 
 #todo-list li {
@@ -98,4 +100,10 @@ main {
 
 /* quote */
 #quote {
+  margin: 60px 0 45px;
+  line-height: 1.5;
+}
+
+/* weather */
+#weather {
 }
